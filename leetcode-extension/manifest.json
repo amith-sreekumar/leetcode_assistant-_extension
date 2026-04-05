@@ -1,0 +1,11 @@
+{
+    "manifest_version":3,
+    "name":"LeetCode Assistant",
+    "version":"1.0",
+    "description":"Provides DSA hints",
+    "permissions": ["activeTab","scripting"],
+    "host_permissions": ["http://localhost:5000/*"],
+    "action":{
+        "default_popup": "popup.html"
+    }
+}

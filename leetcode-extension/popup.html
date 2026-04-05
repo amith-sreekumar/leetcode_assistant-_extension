@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hints</title>
+    <style>
+        .main{
+            border-radius: 12px;
+            overflow: hidden; 
+            background: #1e1e1e;
+            padding: 10px;
+        }
+        body {
+            width: 300px;
+            padding: 10px;
+            font-family: 'Manrope', sans-serif;
+            background: #1e1e1e;
+            color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        h3 {
+            font-size: 18px;
+            letter-spacing: 0.5px;     
+            margin: 0 0 14px;
+            color: #ffa116;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #2a2a2a; 
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #ffa116;
+            color: #1e1e1e;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ffb84d;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 13px;
+            color: #cccccc;
+            line-height: 1.5;
+            background: #2a2a2a;       
+            padding: 8px 10px;          
+            border-radius: 6px;         
+            list-style: none;   
+            border-left: 3px solid #ffa116;        
+        }
+
+        ul {
+            padding-left: 0;            
+            margin-top: 12px;
+        }
+    </style>
+    </head>
+    
+    <body>
+        <div class="main">
+            <h3>LeetCode Hints</h3>
+            <button id="fetchBtn">Get Hints</button>
+            <ul id="output"></ul>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
